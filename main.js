@@ -22,6 +22,7 @@ socketIO.on('connection',function(socket){
         console.log("数据: "+ data['msg']);
          socket.broadcast.emit('ServerMessageReceiver',{msg: data['msg']});
     });
+    socketIO.emit('ServerBroadcast',)
     //断开连接
     socket.on('disconnect', function () {
         username = onlinePlayerArr[clientId];
