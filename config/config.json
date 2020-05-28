@@ -1,0 +1,8 @@
+{
+    "port": 19132,
+    "broadcast": {
+        "opened": true,
+        "message": "<color=blue>[定时广播] Welcome to YNetwork!</color>",
+        "timer": 1
+    }
+}

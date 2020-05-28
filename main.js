@@ -1,6 +1,7 @@
 console.time("Done");
 console.log("-----简易游戏后端服务器Demo-----");
-let port = 19132;
+let config = require("./config/config.json");
+let port = config.port;
 let socketIO = require('socket.io')(port);
 //let playerEvent = require("./events/playerEvent");
 let route = require('./route.js');
