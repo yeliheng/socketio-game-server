@@ -51,7 +51,7 @@ function onPlayerMove(socket){
         username = data['username'];
         x = data['x'];
         y = data['y'];
-        console.log("[调试] username:" + username + "x: " + x + " y: " + y);
+        //console.log("[调试] username:" + username + "x: " + x + " y: " + y);
         //将数据广播给除sender外的所有玩家
         socket.broadcast.emit("MovementReceiver",{
             username: username,

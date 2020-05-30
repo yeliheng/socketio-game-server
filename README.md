@@ -10,5 +10,11 @@ Powered by YNetwork
 
 2.聊天功能
 
+3.玩家出生
+
+4.同步玩家Transform信息
+
+5.基于Agora的语音聊天
+
 # TODO List
-同步玩家Transform信息，云世界生成器，语音聊天
+云世界生成器，RTC语音聊天

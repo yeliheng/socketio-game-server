@@ -16,7 +16,7 @@ class Route{
             chatEvents.onChat(socket);
             playerEvents.onPlayerMove(socket);
         }); 
-        console.log("[系统] 路由引导完成");
+        console.log("[Server] 路由引导完成");
     }
 }
 module.exports=Route;
