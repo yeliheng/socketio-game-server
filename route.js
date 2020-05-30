@@ -14,6 +14,7 @@ class Route{
             playerEvents.onPlayerLeft(socketIO,socket);
             playerEvents.getOnlinePlayers(socket);
             chatEvents.onChat(socket);
+            playerEvents.onPlayerMove(socket);
         }); 
         console.log("[系统] 路由引导完成");
     }
