@@ -2,7 +2,11 @@
     "port": 19132,
     "broadcast": {
         "opened": true,
-        "message": "<color=blue>[定时广播] Welcome to YNetwork!</color> ",
+        "message": "[世界广播]<color=blue> Welcome to YNetwork!</color> ",
         "timer": 1
+    },
+    "map":{
+        "seed": "",
+        "type": "FLAT"
     }
 }
